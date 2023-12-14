@@ -1,0 +1,871 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EEEFF3;
+}
+
+header {
+    padding: 2rem;
+}
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+  }
+  .menu-toggle{
+    display: none;
+  }
+  .hidden{
+    display: none;
+  }
+  
+  .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+  }
+
+nav {
+    margin-top: -50px;
+    margin-left: 100px;
+    font-size: large;
+    font-family:sans-serif;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #2db902f7;
+}
+
+main {
+    display: flex;
+    margin-top: 1%;
+}
+
+.large-square {
+    width: 500px;
+    height: 515px;
+    background-color: #262626;
+    border-radius: 40px;
+    margin: 20px;
+   
+}
+
+.small-square {
+    width: 880px;
+    height: 250px;
+    background-color: #D5D6DA;
+    border-radius: 20px;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+.green-blocks {
+    display: flex;
+}
+
+.small-block:nth-child(1) {
+    width: 435px;
+    height: 250px;
+    background-color: #AF83F8; /* Eerste groene blok kleur */
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.small-block:nth-child(2) {
+    width: 435px;
+    height: 250px;
+    background-color: #CCFF00; /* Tweede groene blok kleur */
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.text{
+    color: #fff;
+    font-size: 50px;
+    margin: 20px;
+    width: 290px;
+    margin-top: 40px;
+}
+.quick{
+    color: #fff;
+    font-family: 'Racing Sans One', sans-serif;
+    font-size: 24px;
+    margin:20px;
+}
+.foto{
+    margin-top: -35%;
+    margin-left: 50px;
+    width: 150px;
+}
+.mockup{
+    margin-left: 220px;
+    margin-top: -35%;
+}
+.paars{
+    color: #fff;
+    font-size: 50px;
+    margin-top: 35%;
+    margin-left: 20px;
+
+}
+.dis{
+    color: #fff;
+    font-size: medium;
+    margin-left: 20px;
+    margin-top: -5%;
+}
+.Arrow{
+    margin-left: 90%;
+    margin-top: 5%;
+}
+.green{
+    color: #000;
+    font-size: 50px;
+    margin-top: 32%;
+    margin-left: 20px;
+
+}
+.diss{
+    color: #000;
+    font-size: medium;
+    margin-left: 20px;
+    margin-top: -5%;
+    width: 120px;
+}
+.Arrows{
+    margin-left: 95%;
+    margin-top: 3%;
+}
+.disss{
+    color: #000;
+    font-size: medium;
+    margin-left: 20px;
+    margin-top:-3%;
+}
+.gris{
+    color: #000;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: -8%;
+
+}
+.mockups{
+    margin-left: 65%;
+    margin-top: -10%;
+
+}
+.quicks{
+    color: #000;
+    font-family: 'Racing Sans One', sans-serif;
+    font-size: 40px;
+    margin-left:80px;
+    margin-top: -4%;
+}
+.contact_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.contact_foto {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.contact_formulier {
+    background-color: #262626;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    margin-left: -20px; /* Aanpassen naar wens voor de overlapping */
+    margin-right: 20px; /* Aanpassen naar wens voor de ruimte tussen de foto en de kader */
+    margin-top: -1px;
+    width: 500px; /* Aangepaste breedte */
+    height: 500px;
+}
+
+.contact_header {
+    color: #fff;
+    font-size: 56px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* Aangepaste stijlen voor de invoervelden en tekstgebied */
+form label {
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+  
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: calc(100% - 80px); /* Aangepaste breedte met padding meegerekend */
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    background-color: #D5D6DA;
+    font-size: 16px;
+    margin-left: 10%;
+    
+}
+
+/* Aangepaste stijlen voor de submitknop */
+form input[type="submit"] {
+    background-color: #CCFF00;
+    color: #000;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 32%;
+    margin-top: 5%;
+}
+
+form input[type="submit"]:hover {
+    background-color: #AF83F8; /* Donkere tint voor hover-effect */
+}
+
+.about_border{
+    background-color: #262626;
+    width: 1440px;
+    height: 1900px;
+    padding-top: 10px;
+    margin-top: 2%;
+}
+
+
+.we{
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 10%;
+    color: #D5D6DA;
+}
+
+.we2{
+    font-size: 50px;
+    font-weight: medium;
+    width: 600px ;
+    margin-left: 21%;
+    margin-top: -4%;
+    color: #D5D6DA;
+}
+
+.about_logo{
+    margin-left: 60%;
+    margin-top: -35%;
+}
+
+.button{
+    background-color: #AF83F8;
+    border-radius: 20px;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    border-color: #AF83F8;
+    margin-left: 21%;
+    margin-top: 7%;
+}
+
+.about_foto{
+    margin-left:65% ;
+    margin-top: -40%;
+}
+
+.head1{
+    margin-left: 10%;
+    width: 300px;
+    color: #D5D6DA;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Racing Sans One', sans-serif;
+    
+}
+.para1{
+    color: #D5D6DA;
+    margin-left: 11%;
+    font-size: medium;
+    margin-top: 2%;
+    width: 600px;
+
+}
+
+.head2{
+    margin-left: 53%;
+    width: 500px;
+    color: #D5D6DA;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 5%;
+    font-family: 'Racing Sans One', sans-serif;
+    
+}
+.para2{
+    color: #D5D6DA;
+    margin-left: 54%;
+    font-size: medium;
+    margin-top: 2%;
+    width: 600px;
+
+}
+.about_foto1{
+    margin-left:15% ;
+    margin-top: -32%;
+}
+
+.black2{
+    background-color: #262626;
+    margin-top: 2%;
+    padding-bottom: 5%;
+    display: none;
+
+}
+.black{
+    background-color: #262626;
+    margin-top: 2%;
+    padding-bottom: 5%;
+    
+}
+
+
+.appheader{
+    font-weight: bold;
+    font-size: 70px;
+    font-family: 'Racing Sans One', sans-serif;
+    color: #D5D6DA;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-content: center; /* Horizontale centrering van de grid */
+    align-items: center; /* Verticale centrering van de grid */
+  }
+  
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Voeg deze regel toe voor het centreren van tekst */
+  }
+  
+  .app_foto,
+  .app_foto1 {
+    max-width: 300px;
+    height: 400px;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    border-radius: 20px;
+  }
+
+  .app_foto2 {
+    max-width: 1000px;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    border-radius: 20px;
+    
+  }
+  
+  .hulptekst,
+  .stap,
+  .stap1 {
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 2%;
+    color: #D5D6DA;
+  }
+  
+  .stap,
+  .stap1 {
+    font-weight: bold;
+    font-size: 70px;
+    font-family: 'Racing Sans One', sans-serif;
+    margin-top: 5%;
+  }
+  
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+
+
+
+/* Media query voor mobiele apparaten */
+@media only screen and (max-width: 600px) {
+    header {
+        text-align: left;
+        padding: 1rem;
+      }
+    
+      nav {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        margin-top: 0;
+        margin-left:0;
+      }
+    
+      nav ul {
+        display: none;
+        text-align: left;
+      }
+    
+      #menu-toggle:checked + .hamburger-menu + nav ul {
+        display: block;
+      }
+    
+      nav ul li {
+        display: block;
+        margin: 0;
+      }
+    
+      .hamburger-menu {
+        display: block;
+        margin-left: 90%;
+        margin-top: -7%;
+      }
+      .quicks{
+        color: #000;
+        font-family: 'Racing Sans One', sans-serif;
+        font-size: 40px;
+        margin-left:80px;
+        margin-top: -12%;
+    }
+    nav a {
+        color: #000;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        margin-left: 80%;
+        
+    }
+
+
+
+
+
+    main {
+        display: flex;
+        margin-top: 1%;
+    }
+    
+    .large-square {
+        width: 400px;
+        height: 515px;
+        background-color: #262626;
+        border-radius: 40px;
+        margin-top: 20px;
+        margin-left: 10%;
+       
+    }
+    
+    .small-square {
+        width: 400px;
+        height: 515px;
+        background-color: #D5D6DA;
+        border-radius: 20px;
+        margin-bottom: 1%;
+        margin-top: 70%;
+        margin-left: -52%;
+    }
+    
+   
+    
+    
+    .small-block:nth-child(1) {
+        width: 400px;
+        height: 250px;
+        background-color: #AF83F8; /* Eerste groene blok kleur */
+        border-radius: 20px;
+        margin-top: 2%;
+        margin-left: -52%;
+    }
+    
+    .small-block:nth-child(2) {
+        width: 400px;
+        height: 250px;
+        background-color: #CCFF00; /* Tweede groene blok kleur */
+        border-radius: 20px;
+        margin-top: 37%;
+        margin-left:-50% ;
+        margin-bottom: 4%;
+    }
+    
+    .text{
+        color: #fff;
+        font-size: 40px;
+        margin: 20px;
+        width: 290px;
+        margin-top: 20px;
+    }
+    .quick{
+        color: #fff;
+        font-family: 'Racing Sans One', sans-serif;
+        font-size: 24px;
+        margin:20px;
+    }
+    .foto{
+        margin-top: -60%;
+        margin-left: 50px;
+        width: 150px;
+    }
+    .mockup{
+        margin-left: 140px;
+        margin-top: -25%;
+    }
+    .paars{
+        color: #fff;
+        font-size: 50px;
+        margin-top: 35%;
+        margin-left: 20px;
+    
+    }
+    .dis{
+        color: #fff;
+        font-size: medium;
+        margin-left: 20px;
+        margin-top: -5%;
+    }
+    .Arrow{
+        margin-left: 90%;
+        margin-top: 5%;
+    }
+    .green{
+        color: #000;
+        font-size: 50px;
+        margin-top: 32%;
+        margin-left: 20px;
+    
+    }
+    .diss{
+        color: #000;
+        font-size: medium;
+        margin-left: 20px;
+        margin-top: -5%;
+        width: 120px;
+    }
+    .Arrows{
+        margin-left: 89%;
+        margin-top: 5%;
+    }
+    .disss{
+        color: #000;
+        font-size: medium;
+        margin-left: 20px;
+        margin-top:-3%;
+    }
+    .gris{
+        color: #000;
+        font-size: 50px;
+        margin-left: 20px;
+        margin-top: 8%;
+    
+    }
+    .mockups{
+        margin-left: -0.5%;
+        margin-top: -20%;
+        width: 300px;
+        height: auto;
+    
+    }
+
+
+
+
+
+    .contact_page {
+        display: flex;
+        flex-direction: column; /* Plaats de elementen onder elkaar */
+        align-items: center;
+        margin-top: 2%;
+    }
+    
+    .contact_foto {
+        border-radius: 20px;
+        margin-bottom: 20px; /* Aanpassen naar een geschikte waarde */
+        width: 450px;
+        height: auto;
+        display: none;
+    }
+    
+    .contact_formulier {
+        background-color: #262626;
+        border-radius: 20px;
+        width: 450px; /* Aangepaste breedte */
+        height: 450px;
+        margin-left: 4%;
+        margin-top: 10%;
+    }
+    
+    .contact_header {
+        color: #fff;
+        font-size: 56px;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    /* Aangepaste stijlen voor de invoervelden en tekstgebied */
+    form label {
+        color: #fff;
+        display: block;
+        font-size: 18px;
+        margin-top: 10px;
+      
+    }
+    
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+        width: calc(100% - 80px); /* Aangepaste breedte met padding meegerekend */
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        border: 1px solid #aaa;
+        background-color: #D5D6DA;
+        font-size: 16px;
+        margin-left: 10%;
+        
+    }
+    
+    /* Aangepaste stijlen voor de submitknop */
+    form input[type="submit"] {
+        background-color: #CCFF00;
+        color: #000;
+        padding: 16px 32px;
+        border: none;
+        border-radius: 8px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-left: 32%;
+        margin-top: 5%;
+    }
+    
+    form input[type="submit"]:hover {
+        background-color: #AF83F8; /* Donkere tint voor hover-effect */
+    }
+
+
+
+
+
+
+    .about_border {
+        background-color: #262626;
+        width: 100%; /* Volledige breedte voor mobiel */
+        height: auto; /* Zorg ervoor dat de hoogte zich automatisch aanpast aan de inhoud */
+        padding-top: 10px;
+        margin-top: 5%;
+    }
+    
+    .we {
+        font-size: 40px; /* Aangepaste grootte voor mobiel */
+        font-weight: bold;
+        margin-top: 5%;
+        margin-left: 5%;
+        color: #D5D6DA;
+    }
+    
+    .we2 {
+        font-size: 25px; /* Aangepaste grootte voor mobiel */
+        font-weight: medium;
+        width: 75%; /* Volledige breedte voor mobiel */
+        margin-left: 19%;
+        margin-top: -6%;
+        color: #D5D6DA;
+    }
+    
+    .about_logo,
+    .button,
+    .about_foto,
+    .head1,
+    .para1,
+    .head2,
+    .para2,
+    .about_foto1 {
+        margin-left: 0;
+    }
+    
+    .about_logo {
+        margin-top: -8%;
+        margin-left: -10%;
+    }
+    
+    .button {
+        background-color: #AF83F8;
+        border-radius: 20px;
+        width: 200px;
+        height: 70px;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        border-color: #AF83F8;
+        margin-left: 0; /* Aangepast voor mobiel */
+        margin-top: 7%;
+        margin-left: 30%;
+    }
+    
+    .about_foto {
+        margin-top: 10%;
+        border-radius: 20px;
+        margin-left: 13%;
+    }
+    
+    .head1 {
+        width: 100%; /* Volledige breedte voor mobiel */
+        font-size: 30px; /* Aangepaste grootte voor mobiel */
+        font-weight: bold;
+        color: #D5D6DA;
+        margin-left: 4%;
+        font-family: 'Racing Sans One', sans-serif;
+    }
+    
+    .para1 {
+        color: #D5D6DA;
+        margin-left: 0;
+        font-size: medium;
+        margin-top: 2%;
+        width: 90%; /* Volledige breedte voor mobiel */
+        margin-left: 4%;
+    }
+    
+    .head2 {
+        width: 100%; /* Volledige breedte voor mobiel */
+        font-size: 30px; /* Aangepaste grootte voor mobiel */
+        font-weight: bold;
+        color: #D5D6DA;
+        margin-top: 8%;
+        margin-left: 4%;
+        font-family: 'Racing Sans One', sans-serif;
+    }
+    
+    .para2 {
+        color: #D5D6DA;
+        margin-left: 0;
+        font-size: medium;
+        margin-top: 2%;
+        width: 90%; /* Volledige breedte voor mobiel */
+        margin-left: 4%;
+        
+    }
+    
+    .about_foto1 {
+        margin-top: 10%;
+        border-radius: 20px;
+        margin-left: 13%;
+        margin-bottom: 5%;
+    }
+    
+
+    
+    .black {
+        background-color: #262626;
+        margin-top: 2%;
+        padding-bottom: 5%;
+        width: 100%;
+    }
+    
+    .appheader {
+        font-weight: bold;
+        font-size: 40px;
+        font-family: 'Racing Sans One', sans-serif;
+        color: #D5D6DA;
+        margin-left: 20%;
+        margin-bottom: 5%;
+        padding-top: 5%;
+    }
+    
+    .parent {
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    
+    .grid-item {
+        margin-bottom: 20px;
+    }
+    
+    .app_foto,
+    .app_foto1 {
+        max-width: 300px;
+        height: 400px;
+        margin-bottom: 2%;
+        margin-top: 3%;
+        border-radius: 20px;
+    }
+    
+    .app_foto2 {
+        max-width: 1000px;
+        height: 300px;
+        margin-bottom: 2%;
+        margin-top: 3%;
+        border-radius: 20px;
+    }
+    
+    .hulptekst,
+    .stap,
+    .stap1 {
+        font-size: 30px;
+        font-weight: 200;
+        margin-top: 2%;
+        color: #D5D6DA;
+    }
+    
+    .stap,
+    .stap1 {
+        font-weight: bold;
+        font-size: 70px;
+        font-family: 'Racing Sans One', sans-serif;
+        margin-top: 5%;
+    }
+    
+      
+    }
+
