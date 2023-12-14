@@ -436,7 +436,7 @@ footer {
 
 
 /* Media query voor mobiele apparaten */
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 600px) {
     body {
         overflow-x: hidden;
         width: 100%;
