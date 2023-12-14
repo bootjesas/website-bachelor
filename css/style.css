@@ -436,7 +436,12 @@ footer {
 
 
 /* Media query voor mobiele apparaten */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 430px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
     header {
         text-align: left;
         padding: 1rem;
@@ -474,7 +479,7 @@ footer {
         font-family: 'Racing Sans One', sans-serif;
         font-size: 40px;
         margin-left:80px;
-        margin-top: -12%;
+        margin-top: -14%;
     }
     nav a {
         color: #000;
@@ -635,7 +640,7 @@ footer {
     .contact_formulier {
         background-color: #262626;
         border-radius: 20px;
-        width: 450px; /* Aangepaste breedte */
+        width: 400px; /* Aangepaste breedte */
         height: 450px;
         margin-left: 4%;
         margin-top: 10%;
@@ -717,8 +722,8 @@ footer {
     .we2 {
         font-size: 25px; /* Aangepaste grootte voor mobiel */
         font-weight: medium;
-        width: 75%; /* Volledige breedte voor mobiel */
-        margin-left: 19%;
+        width: 76%; /* Volledige breedte voor mobiel */
+        margin-left: 21%;
         margin-top: -6%;
         color: #D5D6DA;
     }
@@ -736,7 +741,7 @@ footer {
     
     .about_logo {
         margin-top: -8%;
-        margin-left: -10%;
+        margin-left: -17%;
     }
     
     .button {
@@ -750,13 +755,13 @@ footer {
         border-color: #AF83F8;
         margin-left: 0; /* Aangepast voor mobiel */
         margin-top: 7%;
-        margin-left: 30%;
+        margin-left: 28%;
     }
     
     .about_foto {
         margin-top: 10%;
         border-radius: 20px;
-        margin-left: 13%;
+        margin-left: 8%;
     }
     
     .head1 {
@@ -773,8 +778,8 @@ footer {
         margin-left: 0;
         font-size: medium;
         margin-top: 2%;
-        width: 90%; /* Volledige breedte voor mobiel */
-        margin-left: 4%;
+        width: 85%; /* Volledige breedte voor mobiel */
+        margin-left: 5%;
     }
     
     .head2 {
@@ -792,15 +797,15 @@ footer {
         margin-left: 0;
         font-size: medium;
         margin-top: 2%;
-        width: 90%; /* Volledige breedte voor mobiel */
-        margin-left: 4%;
+        width: 85%; /* Volledige breedte voor mobiel */
+        margin-left: 5%;
         
     }
     
     .about_foto1 {
         margin-top: 10%;
         border-radius: 20px;
-        margin-left: 13%;
+        margin-left: 7%;
         margin-bottom: 5%;
     }
     
@@ -818,7 +823,7 @@ footer {
         font-size: 40px;
         font-family: 'Racing Sans One', sans-serif;
         color: #D5D6DA;
-        margin-left: 20%;
+        margin-left: 13%;
         margin-bottom: 5%;
         padding-top: 5%;
     }
@@ -868,4 +873,7 @@ footer {
     
       
     }
+
+
+
 
