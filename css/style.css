@@ -466,7 +466,7 @@ footer {
     
       nav ul li {
         display: block;
-        margin-left:-5%;
+        margin-left:-10%;
         padding: 1%;
         text-align: right;
       }
@@ -500,13 +500,14 @@ footer {
         margin-top: 1%;
     }
     
+    
     .large-square {
         width: 350px;
         height: 515px;
         background-color: #262626;
         border-radius: 40px;
         margin-top: 20px;
-        margin-left: 5%;
+        margin-left: 3%;
        
     }
     
